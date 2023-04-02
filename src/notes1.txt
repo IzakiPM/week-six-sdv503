@@ -1,0 +1,13 @@
+let counter = 0 
+function inc() {
+     counter ++ // counter = counter + 1
+}
+
+ for(let i = 0; i < 10 ; inc());
+console.log(counter)
+
+for(let i = 0; i < 3 ; i++) {
+    for(let j = 0; j < 3; j++ ){
+        console.log(i,j)
+    }
+}
